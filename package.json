@@ -1,0 +1,31 @@
+{
+  "name": "tutorial-selenium-javascript-basic",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://applitools.com",
+  "author": {
+    "name": "Applitools Team",
+    "email": "team@applitools.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/applitools/tutorial-selenium-javascript-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/applitools/tutorial-selenium-javascript-basic/issues"
+  },
+  "dependencies": {
+    "@applitools/eyes-selenium": "^4.58.2",
+    "selenium-webdriver": "^4.1.0"
+  },
+  "scripts": {
+    "test": "mocha --no-timeouts \"test/*.test.js\""
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
